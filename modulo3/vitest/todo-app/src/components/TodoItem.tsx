@@ -23,12 +23,14 @@ export function TodoItem({ todo, onToggle, onDelete }: TodoItemProps) {
         value={(todo.text)}
       />
 
+
       <input
         type="button1"
         value={(todo.text)}
       />
       
       {/* El texto de la tarea */}
+      <span>{todo.titulo}</span>
       <span>{todo.text}</span>
       {/* Botón para eliminar la tarea */}
       <button onClick={() => onDelete(todo.id)}>Eliminar</button>

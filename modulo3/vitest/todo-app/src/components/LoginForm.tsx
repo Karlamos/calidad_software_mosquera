@@ -17,7 +17,7 @@ export function LoginForm({ onLogin }: LoginFormProps) {
   return (
     <form onSubmit={handleSubmit} aria-label="Formulario de acceso">
       {/* Label asociada por htmlFor + id → getByLabelText */}
-      <h1 htmlFor="adduser">Incluye</h1>
+      <h1>Incluye</h1>
 
       <label htmlFor="username">Usuario</label>
       <input
